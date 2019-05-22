@@ -17,4 +17,6 @@ Object > Fill and Stroke. No Fill, Stroke, 0.01mm
 delete "-diabled" from layer name
 
 
+KICAD-PCB will make Footprint files
+
 
