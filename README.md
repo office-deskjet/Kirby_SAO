@@ -12,6 +12,9 @@ delete the old image
 click the image > Object > transform > Scale to image size in mm
 top bar set x y to 0 0
 copy image to Edge.Cuts Layers
+Ctrl-A twice, will double the dots on path,  Paths>cut paths
+Object > Fill and Stroke. No Fill, Stroke, 0.01mm
+delete "-diabled" from layer name
 
 
 
