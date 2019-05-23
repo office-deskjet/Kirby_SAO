@@ -1,8 +1,8 @@
 # ART
 
 ## Links
-[Source image] (https://www.spriters-resource.com/nes/kirbyadv/sheet/49192/)
-tools: [GIMP](https://www.gimp.org/) [Inkscape] (https://inkscape.org/) [svg2shenzhen](https://github.com/badgeek/svg2shenzhen)
+[Source image] (https://www.spriters-resource.com/nes/kirbyadv/sheet/49192/)  
+tools: [GIMP](https://www.gimp.org/) [Inkscape](https://inkscape.org/) [svg2shenzhen](https://github.com/badgeek/svg2shenzhen)  
 
 ### Art workflow
 crop out image and get size  
