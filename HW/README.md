@@ -8,3 +8,7 @@ click folder icon and navigate to file. it will use the KIPRJMOD variable for pa
 
 Preferences > Manage Footprint Libraries > Project Specific Footprints  
 click folder icon and navigate to .pretty directory. 
+
+
+copy schematic from other project.  
+edit the text file to replace project name with current project name.  
