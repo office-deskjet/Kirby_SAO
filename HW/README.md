@@ -10,3 +10,7 @@ Preferences > Manage Footprint Libraries > Project Specific Footprints
 click folder icon and navigate to .pretty directory. 
 
 import schematic  
+
+
+# Parts
+[LEDs](https://katalog.we-online.com/led/datasheet/155124RS73200A.pdf)  
