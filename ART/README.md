@@ -2,6 +2,7 @@
 
 ## Links
 [Source image] (https://www.spriters-resource.com/nes/kirbyadv/sheet/49192/)  
+[Image for Copper art] (https://vignette2.wikia.nocookie.net/kirby/images/8/86/Kirby_KSSU.png/revision/latest?cb=20110622034334&path-prefix=en)  
 tools: [GIMP](https://www.gimp.org/) [Inkscape](https://inkscape.org/) [svg2shenzhen](https://github.com/badgeek/svg2shenzhen)  
 
 ### Art workflow
