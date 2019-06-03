@@ -15,11 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R1
+L Device:R R2
 U 1 1 5CDF516E
 P 4000 3150
-F 0 "R1" H 4070 3196 50  0000 L CNN
-F 1 "51R" H 4070 3105 50  0000 L CNN
+F 0 "R2" H 4070 3196 50  0000 L CNN
+F 1 "100R" H 4070 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3930 3150 50  0001 C CNN
 F 3 "~" H 4000 3150 50  0001 C CNN
 	1    4000 3150
@@ -59,7 +59,7 @@ F 3 "~" H 4200 3640 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3400 3490 3800 3490
+	3400 3490 3600 3490
 Connection ~ 3800 3490
 Wire Wire Line
 	4000 3300 4000 3490
@@ -69,11 +69,11 @@ Connection ~ 4000 3490
 Wire Wire Line
 	4000 3490 4200 3490
 $Comp
-L Device:R R2
+L Device:R R4
 U 1 1 5CE02173
 P 6150 3150
-F 0 "R2" H 6220 3196 50  0000 L CNN
-F 1 "51R" H 6220 3105 50  0000 L CNN
+F 0 "R4" H 6220 3196 50  0000 L CNN
+F 1 "100R" H 6220 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 3150 50  0001 C CNN
 F 3 "~" H 6150 3150 50  0001 C CNN
 	1    6150 3150
@@ -138,7 +138,7 @@ Wire Wire Line
 	4000 3000 4750 3000
 Connection ~ 4750 3000
 Wire Wire Line
-	4750 3000 6150 3000
+	4750 3000 5770 3000
 Connection ~ 6150 3490
 Wire Wire Line
 	5950 4000 6350 4000
@@ -155,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 3490 6150 3490
 Wire Wire Line
-	5550 3490 5950 3490
+	5550 3490 5770 3490
 Connection ~ 5950 3490
 $Comp
 L Device:LED D9
@@ -231,7 +231,7 @@ NoConn ~ 2840 3200
 Wire Wire Line
 	1550 3000 1550 4000
 Wire Wire Line
-	2840 3000 4000 3000
+	2840 3000 3600 3000
 Connection ~ 4000 3000
 Wire Wire Line
 	1550 4000 2760 4000
@@ -273,4 +273,42 @@ Wire Wire Line
 Connection ~ 2760 4000
 Wire Wire Line
 	2760 4000 3090 4000
+$Comp
+L Device:R R1
+U 1 1 5CF488B7
+P 3600 3150
+F 0 "R1" H 3670 3196 50  0000 L CNN
+F 1 "100R" H 3670 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 3150 50  0001 C CNN
+F 3 "~" H 3600 3150 50  0001 C CNN
+	1    3600 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 3000
+Wire Wire Line
+	3600 3000 4000 3000
+Wire Wire Line
+	3600 3300 3600 3490
+Connection ~ 3600 3490
+Wire Wire Line
+	3600 3490 3800 3490
+$Comp
+L Device:R R3
+U 1 1 5CF4A485
+P 5770 3150
+F 0 "R3" H 5840 3196 50  0000 L CNN
+F 1 "100R" H 5840 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5700 3150 50  0001 C CNN
+F 3 "~" H 5770 3150 50  0001 C CNN
+	1    5770 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5770 3000
+Wire Wire Line
+	5770 3000 6150 3000
+Wire Wire Line
+	5770 3300 5770 3490
+Connection ~ 5770 3490
+Wire Wire Line
+	5770 3490 5950 3490
 $EndSCHEMATC
